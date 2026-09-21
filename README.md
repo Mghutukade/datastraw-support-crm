@@ -8,6 +8,19 @@ A full-stack Customer Support Ticketing CRM built as part of the Datastraw Techn
 
 This application is designed with a clean, decoupled client-server architecture to ensure high performance, maintainability, and clean separation of concerns:
 
+# Datastraw Support CRM
+
+A full-stack support ticketing CRM application built to manage customer service requests with real-time tracking, comments, and status updates.
+
+## 🚀 Live Demo
+* **Frontend (Vercel):** [https://datastraw-support-crm-six.vercel.app/](https://datastraw-support-crm-six.vercel.app/)
+* **Backend API (Render):** [https://datastraw-support-backend-rb9p.onrender.com](https://datastraw-support-backend-rb9p.onrender.com)
+
+## 🛠️ Tech Stack
+* **Frontend:** React, Vite, Tailwind CSS / UI Components
+* **Backend:** FastAPI, Python, Pydantic, SQLAlchemy
+* **Deployment:** Vercel (Frontend) & Render (Backend)
+
 ### 1. Backend Architecture (FastAPI & SQLite)
 - **Framework:** Built using **FastAPI**, chosen for its high performance, automatic interactive API documentation (Swagger/ReDoc), and native support for asynchronous request handling.
 - **ORM & Database:** Uses **SQLite** managed via **SQLAlchemy ORM**. The data model strictly adheres to a constrained relational structure consisting of only two core tables:
